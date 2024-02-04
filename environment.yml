@@ -1,6 +1,7 @@
 name: ttk4260
 channels:
   - defaults
+  - conda-forge
 dependencies:
   - python=3.6
   - numpy
@@ -10,3 +11,8 @@ dependencies:
   - scikit-learn
   - scikit-image
   - notebook
+  - casadi
+  - pytorch
+  - tqdm
+  - xgboost
+  - ipywidgets
