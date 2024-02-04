@@ -21,3 +21,11 @@ If the environment.yml file has been updated, apply the new changes to existing 
 ```bash
 conda env update --file environment.yml --prune
 ```
+
+### PyTorch
+
+This needs to be installed seperately through,
+
+```bash
+conda install pytorch==1.8.0 cpuonly -c pytorch
+```

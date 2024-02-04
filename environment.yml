@@ -1,18 +1,18 @@
 name: ttk4260
-channels:
-  - defaults
-  - conda-forge
 dependencies:
+  - pip
   - python=3.6
   - numpy
   - matplotlib
   - scipy
   - pandas
   - scikit-learn
-  - scikit-image
   - notebook
-  - casadi
-  - pytorch
+  - ipywidgets
   - tqdm
   - xgboost
-  - ipywidgets
+  - ipykernel
+  - pip:
+    - scikit-image
+    - casadi
+    - torch
